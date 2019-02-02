@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>3D Swipe Slider</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="swiper-container">
+    	<div class="swiper-wrapper">
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/gaurang.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Gaurang Shetty<br><span>Chief Innovation Catalyst</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/raj.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Raj Dhiravani<br><span>Innovation Catalyst-IT</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/prerak.png">
+      			</div>
+      			<div class="details">
+      				<h3>Prerak Gala<br><span>Operations Executive</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/bhavna.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Bhavna Pandya<br><span>Innovation Catalyst-Biology</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/amit.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Amit Yadav<br><span>Innovation Catalyst-Electronics</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/hetal_doshi.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Hetal Mundra<br><span>Community Architect</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/harsh.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Harsh Vitra<br><span>Web/Software Developer</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/savin.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Savin Shetty<br><span>Events Executive</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/sangram.png">
+      			</div>
+      			<div class="details">
+      				<h3>Sangram Chavan<br><span>Office Admin</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/sachin.png">
+      			</div>
+      			<div class="details">
+      				<h3>Sachin Khot<br><span>Office Admin</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/suraj.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Suraj Mohite<br><span>Office Admin</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/varun.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Varun Kapadia<br><span>Intern</span></h3>
+      			</div>
+      		</div>
+      		<div class="swiper-slide">
+      			<div class="imgBx">
+      				<img src="https://riidl.org/assets/assets/img/riidl_team/ayush.jpg">
+      			</div>
+      			<div class="details">
+      				<h3>Ayush Shukla<br><span>Intern</span></h3>
+      			</div>
+      		</div>      
+     	</div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    </div>
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 500,
+        modifier: 3,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>	
+</body>
+</html>
